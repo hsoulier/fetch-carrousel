@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js"></script>
+        <script defer src="js/animation.js"></script>
+        <script defer src="js/index.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <title>Animation</title>
+    </head>
+
+    <body>
+        <div id="app">
+            <img src="img/background.jpg" alt="" class="bgfull">
+            <div class="menu">
+                <i data-feather="menu"></i>
+            </div>
+            <div class="project">
+                <h1>Frooma.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut maxime quaerat harum? Aut in deserunt
+                    ullam officiis dolores! Sapiente blanditiis ab earum accusamus voluptatum expedita laboriosam error.
+                    Natus quos, aliquid blanditiis quia inventore, fuga est sint deleniti nostrum quam a quo, aut
+                    molestiae provident voluptatem dicta. Beatae consequuntur asperiores esse numquam eos et repudiandae
+                    molestias incidunt. Eaque aliquid recusandae, beatae ut quaerat nam, a aspernatur unde expedita
+                    neque, distinctio dolorem mollitia obcaecati soluta laboriosam! Hic, accusamus! Sed autem obcaecati
+                    ipsam dolorum vero alias. Labore autem, nihil modi corrupti culpa enim perspiciatis, beatae deleniti
+                    commodi magni earum quidem maxime quibusdam nisi?</p>
+                <div class="project__credits">
+                    <h3>Photography by <a href="#">@someone</a></h3>
+                </div>
+            </div>
+            <div class="arrow arrow-prev">
+                <i data-feather="chevron-left"></i>
+            </div>
+            <div class="arrow arrow-next">
+                <i data-feather="chevron-right"></i>
+            </div>
+
+            <div class="indic container">
+                <div class="indic__nb text">01</div>
+                <div class="indic__bg">
+                    <div class="indic__progress"></div>
+                </div>
+                <div class="indic__nb-max text">05</div>
+            </div>
+
+            <div class="description">
+                <div class="description__container">
+                    <h2>Freshky.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt enim non dignissimos
+                        nobis
+                        velit eligendi et, cupiditate quasi accusantium.</p>
+                </div>
+
+            </div>
+            <div class="image">
+                <img class="image__img" src="img/thumb.jpg"></img>
+            </div>
+        </div>
+        <script>
+            feather.replace({
+                width: 32,
+                height: 32
+            })
+        </script>
+    </body>
+
+</html>

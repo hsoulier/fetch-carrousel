@@ -1,0 +1,4 @@
+@function spacing($space: 1) {
+    @return #{$space * 8}px;
+}
+
